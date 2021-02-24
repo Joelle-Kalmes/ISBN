@@ -9,9 +9,9 @@
     }
   },
   "submission": {
-        "handler": "default",
-        "supported_programming_languages": "python-3"
-    },
+    "handler": "default",
+    "supported_programming_languages": "python-3"
+  },
   "evaluation": {
     "handler": "python",
     "image": "dodona/dodona-python",
@@ -19,6 +19,13 @@
     "memory_limit": 50000000,
     "network_enabled": true
   },
-  "labels": ["voorbeeld", "eenvoudige oefening"],
-  "contact": "Dodona <dodona@ugent.be>"
+  "labels": [
+    "voorbeeld",
+    "eenvoudige oefening"
+  ],
+  "contact": "Dodona <dodona@ugent.be>",
+  "internals": {
+    "token": "uE4cw9UQ6JZhbAWMWrsfdBCMDyAr_NUYFsGniaqUaHN44QBJ6YHbA-bX2v3u9yuP",
+    "_info": "These fields are used for internal bookkeeping in Dodona, please do not change them."
+  }
 }
